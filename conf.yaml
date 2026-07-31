@@ -57,7 +57,7 @@ link_check:
 # 说明：每次运行后向指定邮箱推送所有友链文章更新。
 email_push:
   enable: false
-  to_email: recipient@example.com
+  to_email: 1154735658@qq.com
   subject: "今天的 RSS 订阅更新"
   body_template: "rss_template.html"
 
@@ -65,18 +65,18 @@ email_push:
 # 说明：从 GitHub issue 中提取订阅邮箱，并推送你自己站点的新文章。
 rss_subscribe:
   enable: true
-  github_username: willow-god
+  github_username: orchidsd
   github_repo: Friend-Circle-Lite
-  your_blog_url: https://blog.liushen.fun/
+  your_blog_url: https://weiguang.eu.org/
   email_template: "./push_templates/default.html"
   website_info:
-    title: "清羽飞扬"
+    title: "Yokiのblog"
 
 # SMTP 配置
 # 说明：用于上方邮件相关功能。如果不使用邮件功能，可关闭 email_push 和 rss_subscribe。
 smtp:
-  email: notify@liushen.fun
-  server: smtp.exmail.qq.com
+  email: yokipeek@163.com
+  server: smtp.163.com
   port: 465
   use_tls: true
 
